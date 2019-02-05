@@ -88,9 +88,25 @@
                 {
                     "key":"storefrontContextRoot",
                     "value":""
+                },
+                {
+                    "key":"website.electronics.http",
+                    "value":"http://electronics.chq4m-jt3-d1-public.model-t.myhybris.cloud"
+                },
+                {
+                    "key":"website.electronics.https",
+                    "value":"https://electronics.chq4m-jt3-d1-public.model-t.myhybris.cloud"
+                },
+                {
+                    "key":"xss.filter.header.X-Frame-Options",
+                    "value":""
                 }
             ],
             "webapps": [
+                {
+                    "name": "hac",
+                    "contextPath": "/hac"
+                },
                 {
                     "name": "mediaweb",
                     "contextPath": "/medias"
